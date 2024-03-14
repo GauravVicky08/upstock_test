@@ -110,9 +110,9 @@ const App = () => {
                     style={[stocksStyle.bottom_view, stocksStyle.padding_16, stocksStyle.center]}>
 
                     {!showTodaysStock ?
-                        <Image source={require('./assets/images/up_arrow.png')} style={{ width: 24, height: 20, marginTop: -16, }} resizeMode='contain' />
+                        <Image source={require('./assets/images/up_arrow.png')} style={stocksStyle.arrow_style} resizeMode='contain' />
                         :
-                        <Image source={require('./assets/images/down_arrow.png')} style={{ width: 24, height: 20, marginTop: -16, }} resizeMode='contain' />
+                        <Image source={require('./assets/images/down_arrow.png')} style={stocksStyle.arrow_style} resizeMode='contain' />
                     }
 
                     {showTodaysStock &&

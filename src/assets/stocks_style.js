@@ -51,6 +51,9 @@ const stocksStyle = StyleSheet.create({
     bottom_view: {
         position: 'absolute', bottom: 0, backgroundColor: AppColors.white,
     },
+    arrow_style: {
+        width: 24, height: 20, marginTop: -16, marginLeft: -24
+    },
     divider: {
         width: screenWidth, borderBottomWidth: 0.5, borderColor: AppColors.grey,
     }
