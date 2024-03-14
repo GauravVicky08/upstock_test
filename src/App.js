@@ -96,16 +96,6 @@ const App = () => {
                             renderItem={({ item, index }) => (
                                 <Stocks data={item} />
                             )}
-                            //keyExtractor={(item, index) => index.toString()}
-                            // onMomentumScrollBegin={() => {
-                            // 	setScrollBegin(true);
-                            // }}
-                            // onEndReached={() => {
-                            // 	console.log('End Reached-------');
-                            // 	if (scrollBegin) {
-                            // 		setCurrentPage(currentPage + 1);
-                            // 	}
-                            // }}
                             onEndReachedThreshold={0.01}
                         />
                     }
